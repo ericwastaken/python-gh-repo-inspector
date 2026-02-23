@@ -244,6 +244,10 @@ The `dateRange` field in your configuration file is powered by [Pendulum](https:
 - **Single Date:** `2024-01-01` (retrieves from that date until now)
 - **Default:** If omitted, it defaults to the `last 30 days`.
 
+## Release Notes
+
+For a detailed history of changes, please see [RELEASE-NOTES.md](RELEASE-NOTES.md).
+
 ## Logging
 
 Logs are printed to the console to help you track progress and identify issues (like rate limiting or private repo access errors). Use `--logLevel DEBUG` for verbose output including API request details.
